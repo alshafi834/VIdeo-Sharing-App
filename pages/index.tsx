@@ -9,7 +9,6 @@ import { BASE_URL } from "../utils";
 interface IProps {
   videos: Video[];
 }
-
 const Home = ({ videos }: IProps) => {
   return (
     <div className="flex flex-col gap-10 videos h-full">
